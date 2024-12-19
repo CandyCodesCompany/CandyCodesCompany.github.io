@@ -1,0 +1,4 @@
+:root{
+    --color:"#000000";
+}
+@import url("./src/components/top-header/css/style.css");

@@ -1,0 +1,10 @@
+.candyGithubPage__topHeaderWrapper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 3px solid var(--color);
+}
