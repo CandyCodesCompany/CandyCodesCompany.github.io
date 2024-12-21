@@ -12,3 +12,15 @@
     align-items: center;
     margin-top: 50px;
 }
+
+.candyGithubPage__bannerText
+{
+    max-width: 600px;
+    line-height: 25px;
+}
+
+.candyGithubPage__bannerText h3
+{
+    color: var(--color);
+    font-size: larger;
+}

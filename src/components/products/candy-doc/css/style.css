@@ -1,0 +1,102 @@
+.candyGithubPage__productWrapper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto;
+    height: 300px;
+    flex-wrap: wrap;
+   
+}
+
+.candyGithubPage__productCandyDocImage
+{
+    width: 250px;
+    height: 100%;
+    transform: translateY(30px);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.candyGithubPage__productCandyDocText
+{
+    width: 600px;
+    line-height: 25px;
+}
+
+.candyGithubPage__productCandyDocText h3
+{
+    color: var(--color);
+    font-size: larger;
+}
+
+.candyGithubPage__ProductFeature h3{
+    color: var(--color);
+    font-size: larger;
+}
+
+.candyGithubPage__ProductFeature 
+{
+    line-height: 25px;
+}
+
+.candyGithubPage__ProductFeature span{
+    font-weight: 600;
+}
+.candyGithubPage__ProductFeature 
+{
+    width: 600px;
+    
+}
+
+.candyGithubPage__ProductFeature ul 
+{
+    line-height:35px ;
+    
+}
+.candyGithubPage__productDownload
+{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.candyGithubPage__productDownload button
+{
+    width: 50%;
+    height: 50px;
+    background-color: var(--color);
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+    border:5px solid var(--color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.candyGithubPage__productDownload h3
+{
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    
+}
+
+.candyGithubPage__productDownload button.documentButton
+{
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    color: gray;
+    border: 5px solid gray;
+    font-size: x-large;
+    font-weight: 900;
+    border-radius: 5px;
+    cursor: pointer;
+    cursor: not-allowed;
+
+}

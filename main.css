@@ -1,6 +1,7 @@
 
 @import url("./src/components/top-header/css/style.css");
 @import url("./src/components/banner/css/style.css");
+@import url("./src/components/products/candy-doc/css/style.css");
 :root{
     --color:#c686ff;
 }
@@ -14,10 +15,13 @@ body
     position: relative;
 }
 
-*{
+p{
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 @font-face {
     font-family: "Mirage";
@@ -25,4 +29,9 @@ body
       local("Mirage"),
       url("./assets/fonts/Mirage.ttf") format("ttf")
     
+  }
+
+  h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
   }
